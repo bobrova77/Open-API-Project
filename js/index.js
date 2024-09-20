@@ -73,6 +73,7 @@ async function getAllPages(urls) {
           })
           .then((data) => {
             for (let propKey in data.result.properties) {
+              console.log("propKey", propKey);
               if (propKey == "homeworld" || propKey == "url") {
                 continue; // skip these for now
               }
