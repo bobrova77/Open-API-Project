@@ -19,7 +19,7 @@ The Star Wars API is a web application that allows users to search for and learn
 
 - A modern web browser (e.g., Chrome, Firefox, Safari)
 - Internet connection (for API calls)
-- A text editor (e.g., VSCode, Sublime Text) if you want to make changes
+- A text editor (e.g., VSCode, Sublime Text) if you want to make changes!
 
 ## Installation and Setup
 
