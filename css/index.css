@@ -1,9 +1,20 @@
-body {
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
+#people-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
 }
-
-h1 {
-  color: #333;
-  text-align: center;
+#one-person-container {
+  background-color: rgb(146, 245, 205);
+  border-radius: 0.8em;
+  padding: 0.5em;
+}
+.person {
+  background-color: rgb(0, 255, 145);
+  border-radius: 0.8em;
+  padding: 0.5em;
+}
+#done-button {
+  background-color: rgb(178, 237, 195);
+  padding: 0.5em;
+  border-radius: 0.8em;
 }
